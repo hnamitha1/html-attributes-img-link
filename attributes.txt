@@ -1,0 +1,58 @@
+Attributes
+
+Attributes are used in tags to further define the tag.
+Attributes are a name-value pair: 
+example:start="5"
+name - start
+value - any positive integer
+if attribute is a 'boolean attribute'(value true or false),add the attribute name to
+to indicate true and omit to indicate false.
+ex: <ol reversed></ol>
+
+tag can have multiple attributes:
+ex:<ol start="5"></ol>
+   <ol id="cinema" class="attribute-list" start="5"></ol>
+   <ol start="5" class="attribute-list"></ol>
+
+
+Global & non-global attributes
+
+Global attributes can be applied to all tags. They are common attributes. 
+Examples of global attributes are 'id' and 'class'.  
+So attributes like 'id' and 'class' can be applied to any HTML tag.
+<ul id="intro-list"></ul>
+<pre class="html-code"></pre>
+
+Non-global attributes are attributes applied to a specific instance 
+of a tag. It can be applied to one or more tags. 
+Like start is an attribute for the <ol> tag.
+ start cannot be applied on the <p> or <h1> tags and is specific to
+ only ordered lists - <ol>. 
+
+
+'id' is primarily used for:
+
+1.Styling your element. You can specify the style you want for the 
+element in your style sheet by referencing the 'id'.
+2.As a link target. You can link to a section of your HTML page 
+using the 'id' of the section. 
+3.In JavaScript, 'id' can be used to manipulate a html element. 
+
+'class' is primarily used for:
+
+1. Styling your elements. You can specify the style you want for all 
+the elements that belong to the class in your stylesheet. 
+2. In JavaScript, 'class' can also be used to manipulate html elements
+ of the same class. 
+
+
+GLOBAL ATTRIBUTE: 'LANG'
+
+The 'lang' attribute indicates the language of the text in the element to which it is attached.  Identifying the language of content is increasingly important, as browsers adapt styling and other aspects of the user's experience according to the language of the content. 
+ex:
+<html lang="en-GB">...</html>
+<p>In French you'd say <span lang="fr">On voit souvent des chats sur le Web.</span></p>
+
+A message that appears when you point your cursor at something is called a tooltip
+the title attribute is used to provide additional information about it. It is very useful to elaborate abbreviations or add some context. For images, you must use an alt attribute as there is no guarantee that the title attribute is presented to assistive technology users. The title can be of any text value. 
+ex:<abbr title="National Aeronautics and Space Administration">NASA</abbr>
