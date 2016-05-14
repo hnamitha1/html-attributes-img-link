@@ -1,0 +1,32 @@
+When writing in hypertext language, it is important to separate content
+and style. Style should be kept tucked away in Cascading Style Sheets (CSS).
+
+Semantic refers to the meaning of words in a language. Semantic tags said 
+something about the semantic of the tag. It offered meaning. 
+ex:
+<em>	        Emphasizes text
+<strong>	Important text
+
+<b> vs <strong>
+
+Bold is a style that makes letters thicker so it stands out among other
+text but it has no semantic meaning, for example for voice browsers, 
+screen readers, and other types of ways to access the Web. A device like
+Kindle Paperwhite that renders text differently and might not pick 
+up the bold.
+
+Strong is an indication of how something should be. It looks like bold in
+ a browser, but it could mean ‘speak with urgency or seriousness’ when 
+reading text aloud. It is semantic in the sense, that we instruct it to 
+be stronger than the text it surrounds which is different from giving 
+instructions on how the text should look like in the case of <b>. 
+It represents importance, seriousness, or urgency for its contents.
+
+<i> vs <em>
+
+Italics slants text. We usually italicize names of magazine, books, 
+TV shows etc. Just like the bold tag, since it is meant purely for presentation
+ purposes, it means nothing to someone who cannot read the text.
+
+Emphasis is used to stress emphasis of its contents. The word in a sentence 
+you emphasize can change the whole meaning.  

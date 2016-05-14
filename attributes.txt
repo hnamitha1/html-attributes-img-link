@@ -48,11 +48,19 @@ the elements that belong to the class in your stylesheet.
 
 GLOBAL ATTRIBUTE: 'LANG'
 
-The 'lang' attribute indicates the language of the text in the element to which it is attached.  Identifying the language of content is increasingly important, as browsers adapt styling and other aspects of the user's experience according to the language of the content. 
+The 'lang' attribute indicates the language of the text in the element
+ to which it is attached.  Identifying the language of content is 
+increasingly important, as browsers adapt styling and other aspects 
+of the user's experience according to the language of the content. 
 ex:
 <html lang="en-GB">...</html>
 <p>In French you'd say <span lang="fr">On voit souvent des chats sur le Web.</span></p>
 
-A message that appears when you point your cursor at something is called a tooltip
-the title attribute is used to provide additional information about it. It is very useful to elaborate abbreviations or add some context. For images, you must use an alt attribute as there is no guarantee that the title attribute is presented to assistive technology users. The title can be of any text value. 
+A message that appears when you point your cursor at something is 
+called a tooltip
+the title attribute is used to provide additional 
+information about it. It is very useful to elaborate abbreviations 
+or add some context. For images, you must use an alt attribute as 
+there is no guarantee that the title attribute is presented to assistive
+ technology users. The title can be of any text value. 
 ex:<abbr title="National Aeronautics and Space Administration">NASA</abbr>
